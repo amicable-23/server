@@ -63,4 +63,4 @@ urlpatterns = [
     
 ]
 
-urlpatterns = staticfiles_urlpatterns()
+urlpatterns += staticfiles_urlpatterns()
